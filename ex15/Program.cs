@@ -3,18 +3,18 @@
 int numberN = new Random().Next(0, 9);
 Console.WriteLine($"Ввод цифры {numberN}");
 
-if (numberN > 0 && numberN < 8) 
+if (numberN > 0 && numberN < 8)
 {
     if (numberN == 6 || numberN == 7)
     {
         Console.WriteLine("Этот день выходной");
-    } 
-    else 
+    }
+    else
     {
         Console.WriteLine("Этот день не является выходным");
     }
-} 
-else 
+}
+else
 {
     Console.WriteLine("Такого дня недели нет");
 }
